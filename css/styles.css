@@ -1,0 +1,158 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/*aplications*/
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.btn{
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    width: 260px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Estilos del header */
+header {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center; /* Cambiado a center */
+    align-items: center;
+    position: relative; /* Para posicionar el logo */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #d50000;
+}
+
+/* Logo del header */
+header nav .logo {
+    position: absolute;
+    left: 10px; /* Posición ajustada para que el logo quede a la izquierda */
+}
+
+header nav .logo img {
+    height: 50px;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(100vh - 100px); /* Ajusta según la altura de tu header y footer */
+    flex-direction: column;
+}
+
+/* Estilos del formulario */
+form {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #d50000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff3333;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #d50000;
+    text-align: center;
+}
+
+a:hover {
+    color: #ff3333;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d50000;
+    color: #fff;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
